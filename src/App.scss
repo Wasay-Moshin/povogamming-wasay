@@ -1,0 +1,396 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Media/povobg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: #2d061b;
+  .c1 {
+    color: white;
+  }
+}
+.hero {
+  background-image: url("Media/bga.369b8f9f.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  color: white;
+  h1 {
+    font-weight: 700;
+    font-size: 35pt;
+    color: #fff;
+    text-shadow: 0 3px 7px #8b0000;
+    text-transform: uppercase;
+  }
+  .btn1 {
+    background-color: white;
+    font-weight: 600;
+    color: #8b0000;
+    outline: none !important;
+    border: none !important;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 8px 10px;
+    margin-top: 20px !important;
+  }
+  .btn1:hover {
+    color: white;
+    background-color: #c62828;
+  }
+  .btn2 {
+    background-color: transparent;
+    font-weight: 600;
+    color: white;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 8px 10px;
+    margin-top: 20px !important;
+  }
+  .btn2:hover {
+    color: white;
+    background-color: #c62828;
+  }
+  .input-group-text {
+    background-color: #c62828;
+    border-radius: 0;
+    border: 1px solid #c62828;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0.376rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .form-control {
+    background: #000;
+    border-radius: 0;
+    border: 1px solid #c62828;
+    color: white;
+  }
+}
+.yb {
+  background-color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.stacking {
+  background-image: url("Media/wwww.fbb188c2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  .c1 {
+    color: #8b0000;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .btn {
+    background-color: #c62828 !important;
+    color: #e0e0e0 !important;
+    border: none;
+  }
+  ul {
+    color: white;
+  }
+}
+.slider {
+  background-image: url("Media/bassasah.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  h1{
+    color:#8b0000;
+  }
+  .btn-danger {
+    padding: 6px 40px;
+  }
+}
+.stakingwork {
+  background-color: #2d061b;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  width: 100%;
+}
+.benefit {
+  background-image: url("Media/bassasah.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    color: white;
+  }
+  h5 {
+    color: white;
+    margin-top: 30px;
+    font-weight: 500;
+  }
+  ul {
+    color: white;
+    list-style: square;
+    margin-top: 30px;
+  }
+}
+.feature {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  color: white;
+}
+.modal-content {
+  background-color: #000;
+  color: white;
+}
+.modal-title {
+  color: #8b0000;
+}
+.modal-header {
+  border-bottom: none;
+  closebutton {
+    color: white;
+  }
+}
+.btn-close {
+  color: white;
+}
+.card1 {
+  position: relative !important;
+  overflow: hidden !important;
+  padding: 10px !important;
+  border: none !important;
+  background-color: white !important;
+  .card-img-top {
+    width: 40%;
+  }
+  .card-title {
+    font-weight: 700;
+    text-align: center;
+    color: #8b0000 !important;
+    margin-top: 10px;
+  }
+  .card-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #777;
+  }
+  .btn {
+    text-align: center;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    color: #ffc107;
+  }
+  .btn:hover {
+    background-color: transparent;
+  }
+}
+.card2 {
+  position: relative !important;
+  overflow: hidden !important;
+  padding: 10px !important;
+  border: none !important;
+  background-color: #8b0000 !important;
+  .card-img-top {
+    width: 40%;
+  }
+  .card-title {
+    font-weight: 700;
+    text-align: center;
+    color: white !important;
+    margin-top: 10px;
+  }
+  .card-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+  }
+  .btn {
+    text-align: center;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    color: #ffc107;
+  }
+  .btn:hover {
+    background-color: transparent;
+  }
+}
+.video {
+  width: 100% !important;
+  margin: 0 !important;
+  background-color: #000;
+}
+.live {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-size: cover;
+  color: white;
+  h3 {
+    font-weight: 600;
+  }
+  .btn1 {
+    background-color: white;
+    color: #8b0000;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 18px;
+    font-weight: 700;
+  }
+}
+
+.mission {
+  background-image: url("Media/wwww.fbb188c2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  h4 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 50px;
+  }
+  p {
+    color: white;
+  }
+}
+.vision {
+  background-image: url("Media/asssasa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  h4 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  p {
+    color: white;
+  }
+}
+.tokenomics {
+  background-image: url("Media/wwww.fbb188c2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  color: white;
+  h5 {
+    color: #26a0d3;
+  }
+  h2 {
+    color: #ffc107;
+  }
+
+  .l1 {
+    padding: 0px 80px;
+    background-color: rgb(23, 108, 165);
+  }
+  .l2 {
+    background-color: rgb(255, 193, 7);
+    padding: 0px 45px;
+  }
+  .l3 {
+    background-color: rgb(91, 63, 144);
+    padding: 0px 30px;
+  }
+  .l4 {
+    background-color: rgb(200, 30, 80);
+    padding: 0px 10px;
+  }
+  .l5 {
+    background-color: rgb(235, 56, 116);
+    padding: 0px 10px;
+  }
+  .l6 {
+    background-color: rgb(47, 172, 206);
+    padding: 0px 4px;
+  }
+  .l7 {
+    background-color: rgb(245, 140, 139);
+    padding: 0px;
+  }
+}
+.roadmap {
+  background-color: #000000;
+}
+.rugpul {
+  background-image: url("Media/bassasah.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 70px;
+  color: white;
+  ul {
+    font-size: 20px;
+  }
+}
+.faqs {
+  padding-top: 90px !important;
+  padding-bottom: 70px !important;
+  strong {
+    color: white !important;
+    font-size: 40px !important;
+  }
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root:first-of-type {
+  background-color: rgb(0, 0, 0) !important;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+  color: white !important;
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  background-color: #000000 !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  background-color: black !important;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+  color: white !important;
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  color: white !important;
+}
+.friends {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background-color: #000;
+  color: white;
+}
+.footer {
+  background-color: #2d061b;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .p1 {
+    display: flex;
+    color: white;
+  }
+  .ic {
+    padding-top: 25px;
+    color: white;
+  }
+  .c1 {
+    color: white;
+  }
+}
