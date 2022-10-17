@@ -4,13 +4,12 @@ import "react-multi-carousel/lib/styles.css";
 function Slider() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -36,13 +35,14 @@ function Slider() {
             infinite={true}
             autoPlay={true}
             arrows={false}
+            minimumTouchDrag={20}
           >
             <div>
               <img
                 className="img-fluid"
                 src="Assests/NFT1.png"
                 alt=""
-                style={{ width: "350px" }}
+                style={{ width: "300px" }}
               />
               <br />
               <button type="button" className="btn btn-danger mt-3 mb-3">
@@ -54,7 +54,7 @@ function Slider() {
                 className="img-fluid"
                 src="Assests/NFT2.png"
                 alt=""
-                style={{ width: "350px" }}
+                style={{ width: "300px" }}
               />
               <br />
               <button type="button" className="btn btn-danger mt-3 mb-3">
@@ -66,7 +66,7 @@ function Slider() {
                 className="img-fluid"
                 src="Assests/NFT3.png"
                 alt=""
-                style={{ width: "350px" }}
+                style={{ width: "300px" }}
               />
               <br />
               <button type="button" className="btn btn-danger mt-3 mb-3">
@@ -78,7 +78,7 @@ function Slider() {
                 className="img-fluid"
                 src="Assests/NFT4.png"
                 alt=""
-                style={{ width: "350px" }}
+                style={{ width: "300px" }}
               />
               <br />
               <button type="button" className="btn btn-danger mt-3 mb-3">
@@ -90,7 +90,7 @@ function Slider() {
                 className="img-fluid"
                 src="Assests/NFT5.png"
                 alt=""
-                style={{ width: "350px" }}
+                style={{ width: "300px" }}
               />
               <br />
               <button type="button" className="btn btn-danger mt-3 mb-3">
@@ -102,7 +102,7 @@ function Slider() {
                 className="img-fluid"
                 src="Assests/NFT6.png"
                 alt=""
-                style={{ width: "350px" }}
+                style={{ width: "300px" }}
               />
               <br />
               <button type="button" className="btn btn-danger mt-3 mb-3">
@@ -114,7 +114,7 @@ function Slider() {
                 className="img-fluid"
                 src="Assests/NFT7.png"
                 alt=""
-                style={{ width: "350px" }}
+                style={{ width: "300px" }}
               />
               <br />
               <button type="button" className="btn btn-danger mt-3 mb-3">

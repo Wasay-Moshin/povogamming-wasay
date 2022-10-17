@@ -4,7 +4,6 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 function Feature() {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const [data, setData] = useState({
@@ -222,6 +221,7 @@ function Feature() {
                   <h5 className="card-title">
                     Dapp Store and game studio integration
                   </h5>
+                  <br />
                   <p className="card-text text-start">
                     Decentralized applications are a set of programs that
                     harness excess power from different nodes globally.
