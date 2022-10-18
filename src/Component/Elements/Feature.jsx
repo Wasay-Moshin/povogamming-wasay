@@ -4,12 +4,18 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 function Feature() {
   const [show, setShow] = useState(false);
+  const [title, setTitle] = useState("");
+  const [text, setText] = useState("");
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-  const [data, setData] = useState({
-    title: "",
-    text: "",
-  });
+  const handleShow = (title, text) => {
+    setShow(true);
+    setTitle(title);
+    setText(text);
+  };
+  // const [data, setData] = useState({
+  //   title: "",
+  //   text: "",
+  // });
   const carddata = [
     {
       img: "Assests/crd1.svg",
@@ -59,7 +65,10 @@ function Feature() {
           <div className="row">
             {carddata.map((data, index) => (
               <div className="col-sm-6 col-md-4  mb-3 ">
-                <div className={`card card1 ${index%2 === 1 && 'red-bg'}`} style={{width: "18rem" }}>
+                <div
+                  className={`card card1 ${index % 2 === 1 && "red-bg"}`}
+                  style={{ width: "18rem" }}
+                >
                   <div className="text-center">
                     <img
                       src={data.img}
@@ -75,13 +84,7 @@ function Feature() {
                     <div className="">
                       <Button
                         className="btn btn-primary"
-                        onClick={() => {
-                          setData({
-                            title: "In game items crafting",
-                            text: "In-game items crafting is a skill or set of skills option  specifically provides in massively multiplayer online games or role playing games and other game genres. It allows the users to use basic tools within the game to  for the purpose of competitive edge over other participants. Other game genres where crafting tool is available are, FPS team fortress 2, which allows its users to combine different weapons to create a new one. Or, sandbox Minecraft, which allows players to create and repair their weapons.",
-                          });
-                          handleShow();
-                        }}
+                        onClick={() => handleShow(data.title, data.text) }
                       >
                         Read more
                       </Button>
@@ -294,9 +297,9 @@ function Feature() {
         keyboard={false}
       >
         <Modal.Header closeButton closeVariant="white">
-          <Modal.Title>{data.title}</Modal.Title>
+          <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{data.text}</Modal.Body>
+        <Modal.Body>{text}</Modal.Body>
       </Modal>
     </>
   );
